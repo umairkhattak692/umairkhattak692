@@ -13,7 +13,7 @@ Most of my work is client software under NDA, so it lives in private repositorie
 - **Workforce & scheduling platforms** — multi-tenant PostgreSQL with row-level security driven by JWT claims, role-based access across user tiers, invitation flows, bulk import
 - **Healthcare & regulated systems** — .NET / C# services on Azure, maintaining long-lived migration chains against live schemas
 - **HR & workforce management** — employee records, approval workflows, reporting
-- **Lead-generation & automation** — NestJS services, scheduled ingestion pipelines, third-party integrations
+- **Lead-generation & automation** — NestJS services, BullMQ job queues on Redis, scheduled ingestion pipelines, third-party integrations
 - **Migrations & rescue work** — inheriting someone else's codebase and getting it back on its feet; legacy ASP.NET / IIS / SQL Server moved onto Azure
 
 ### Stack
@@ -21,6 +21,7 @@ Most of my work is client software under NDA, so it lives in private repositorie
 | | |
 |---|---|
 | **Backend** | NestJS · Node.js · Express · .NET / C# · REST · GraphQL |
+| **Async** | Redis · BullMQ · background workers · scheduled jobs |
 | **Frontend** | Next.js · React · TypeScript · Tailwind · Blazor |
 | **Data** | PostgreSQL · Supabase · SQL Server · MongoDB · Prisma · Sequelize · TypeORM |
 | **Infra** | Azure · AWS · DigitalOcean · Docker · GitHub Actions |
