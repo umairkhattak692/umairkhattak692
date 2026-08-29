@@ -22,8 +22,8 @@ Most of my work is client software under NDA, so it lives in private repositorie
 |---|---|
 | **Backend** | NestJS · Node.js · Express · .NET / C# · REST · GraphQL |
 | **Frontend** | Next.js · React · TypeScript · Tailwind · Blazor |
-| **Data** | PostgreSQL · SQL Server · MongoDB · Prisma · TypeORM |
-| **Infra** | Azure · AWS · Docker · GitHub Actions |
+| **Data** | PostgreSQL · Supabase · SQL Server · MongoDB · Prisma · Sequelize · TypeORM |
+| **Infra** | Azure · AWS · DigitalOcean · Docker · GitHub Actions |
 
 ### How I work
 
